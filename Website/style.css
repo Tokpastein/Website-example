@@ -75,24 +75,24 @@ nav{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 18%;
+    width: 10%;
     margin-top: 50px;
 }
 .box-main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 50%;
     margin-top: 70px;
 }
 .box-section2{
     display: flex;
     justify-content: center;
-    height: 520px;
+    height: 660px;
     background-color: #6e07F3;
-    margin: 0px;
     left: 0px;
     color: white;
+    margin-bottom: 100px;
 }
 .box-container{
     margin: 0px;
@@ -115,4 +115,72 @@ nav{
     align-items: center;
     line-height: 1.25;
     padding-top: 25px;
+}
+
+.box-section3{
+    display: flex;
+    justify-content: center;
+    margin-top: -14rem;
+    padding-bottom: 1 rem;
+    align-items: center;
+    border-radius: 20px;
+}
+.icons{
+    width: 60px;
+    height: 60px;
+    background-color: #5be9b9;
+    color: white;
+    border-radius: 50%;
+    font-weight: 400;
+    margin-top: 45px;
+}
+.box-article1{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    size: 60px;
+
+    
+}
+.box-article1 > .box-topk{
+    width: 28%;
+}
+.box-topk{
+    border: 1px solid rgba(110, 7, 243, 0.2);
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px Opx 20px;
+    text-align: center;
+}
+ul li {
+    list-style: none;
+    font-family: europa;
+    padding: 5px;
+}
+h2{
+    font-family: eurostile;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.box-paragr{
+    font-family: europa;
+    text-align: center;
+    padding: auto;
+    font-size: 18px;
+}
+.box-do{
+    padding: 15px;
+    color: #6e07F3;
+    font-size: 18px;
+    font-family: europa;
+}
+.box-foo{
+    padding: 15px;
+    color: #6e07F3;
+    font-size: 18px;
+    font-family: europa;
+    padding-top: 35px;
 }
